@@ -1,0 +1,134 @@
+#heading-1{
+    color: red;
+    font-size: 24px;
+}
+.paragraph-1{
+    color: green;
+}
+.post-item .title-2{
+    color: red;
+    font-size: 28px;
+}
+:root {
+    --heading-color: rgb(233, 10, 10);
+    --text-color: #404040;
+}
+#heading-4{
+    color: var(--text-color);
+    background: var(--heading-color);
+}
+.desc-4{
+    color: var(--text-color);
+}
+.button {
+    /* Thêm phần đệm, cho nút dày lên */
+    /* Chương sau sẽ học chi tiết về padding */
+    padding: 8px 16px;
+
+    color: #fff;
+    background-color: #f05123;
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgba(0,0,0,0.8) ;
+}
+.content-4 {
+    background-color: #ebebeb;
+    padding: 16px;
+}
+/* /////////////////////// */
+.fb-group-6 {
+    padding: 16px;
+}
+
+.heading-6 {
+    font-size: 2.8rem;
+}
+
+.desc-6 {
+    font-size: 1.6rem;
+}
+
+.button-link-6 {
+    color: #fff;
+    background-color: #1b74e4;
+    font-size: 1.6rem;
+    padding: 8px 16px;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+/* /////////////////// */
+.fb-group-7 {
+    padding: 16px;
+}
+
+.heading-7 {
+    font-size: 2.8rem;
+}
+
+.desc-7 {
+    font-size: 1.6rem;
+}
+
+.button-link-7 {
+    color: #333;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid #333;
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+
+.button-link-7:hover {
+    color: #fff;
+    background-color: #333;
+}
+/* /////////////// */
+.content-8 {
+    padding: 16px;
+}
+
+.heading-8 {
+    font-size: 2.8rem;
+}
+
+.post-item {
+    padding: 12px 14px;
+    border: 2px solid #ccc;
+
+    /* Bo tròn góc 16px */
+    border-radius: 16px;
+}
+
+.post-item .title-8 a {
+    color: #333;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.post-item .desc-8 {
+    font-size: 1.6rem;
+    color: #444;
+}
+
+.post-item .min-read {
+    font-size: 1.4rem;
+    color: #666;
+}
+.posts-list{
+    margin-top: 32px;
+}
+.post-item{
+    margin-bottom: 16px;
+}
+.post-item .desc-8{
+    margin-top: 10px;
+}
+.post-item .min-read{
+    margin-top: 12px;
+}
