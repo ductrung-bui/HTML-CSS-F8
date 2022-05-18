@@ -132,3 +132,12 @@
 .post-item .min-read{
     margin-top: 12px;
 }
+body{
+    width: 500px;
+}
+img{
+    width: 500px;
+    border: 5px solid #222;
+    border-radius: 10px;
+    box-shadow: 10px 10px #555;
+}
