@@ -79,7 +79,8 @@
     font-weight: 600;
     padding: 8px 16px;
     border: 2px solid #333;
-
+    border-radius: 10px;
+    box-shadow: 10px 10px #222;
     /* Bỏ gạch chân mặc định của thẻ a */
     text-decoration: none;
 }
@@ -125,6 +126,7 @@
 }
 .post-item{
     margin-bottom: 16px;
+    box-shadow: 10px 10px #222;
 }
 .post-item .desc-8{
     margin-top: 10px;
